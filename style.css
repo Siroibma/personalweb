@@ -1,0 +1,252 @@
+* {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+ }
+
+h2 {
+  border-bottom: black solid 2px;
+}
+
+nav {
+  z-index: 1;
+}
+
+
+#section1 {
+  height: 100vh;
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+i {
+  margin-top: 10vh;
+
+}
+
+i {
+animation: i ease 3s;
+}
+
+@keyframes i {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.icon {
+  float: left;
+  padding-left: 10%;
+  font-weight: 800;
+  padding: 16px 40px;
+  font-size: 20px;
+}
+#Accomplishments {
+  height: 40vh;
+  background-color: tomato;
+}
+
+#Accomplishments > .row > div {
+  height: inherit;
+}
+
+#Accomplishments > .row {
+  height: inherit;
+}
+
+#Accomplishments div > div > h2 {
+  text-align: center;
+}
+
+#Accomplishments div > div > article {
+  text-align: center;
+}
+
+
+#WorkExperience {
+  background-color: snow;
+  height: 40vh;
+}
+
+#Projects {
+  height: 90vh;
+  background-color: #4169E1;
+}
+
+#scrabble1 {
+  background: url(scrabble.jpg);
+  background-size: cover;
+  height: 40vh;
+  width: fixed;
+}
+
+#sim1 {
+  background: url(gui.jpg);
+  background-size: cover;
+  height: 40vh;
+  width: fixed;
+}
+
+#gui2 {
+  background: url(coming.jpg);
+  background-size: cover;
+  height: 40vh;
+  width: fixed;
+}
+#OPL {
+  background: url(coming.jpg);
+  background-size: cover;
+  height: 40vh;
+  width: fixed;
+}
+
+#git1 {
+  background: url(github.jpg);
+  background-size: cover;
+  height: 40vh;
+  width: fixed;
+}
+
+#table1 {
+  background: url(website.png);
+  background-size: cover;
+  height: 40vh;
+  width: fixed;
+}
+
+.spotify {
+  background: url(music.jpg);
+  background-size: cover;
+  height: 50vh;
+  width: fixed;
+}
+
+#game1 {
+  background: url(videogames.jpeg);
+  background-size: cover;
+  height: 50vh;
+  border-radius: 10%;
+  width: fixed;
+}
+
+#game1:hover {
+  opacity: 0.9;
+}
+#music1:hover {
+  opacity: 0.9;
+}
+#ladder1:hover {
+  opacity: .9;
+}
+
+#ladder1 {
+  background: url(crusader.jpg);
+  background-size: cover;
+  height: 50vh;
+  border-radius: 10%;
+  width: fixed;
+}
+
+
+
+#Hobbies {
+  height: auto;
+  background-color: darkGrey;
+}
+
+#Hobbies > .row {
+  height: inherit;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: #000;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+#Contact {
+  background-color: oldlace;
+}
+
+
+#WorkExperience > div {
+  margin: auto;
+}
+
+.centerword {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+}
